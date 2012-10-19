@@ -1,36 +1,10 @@
-# Mathias’s dotfiles
+# Tommy’s dotfiles
+Forked from [mathias's dotfiles](https://github.com/mathiasbynens/dotfiles/) with some extras from [paul irish's dotfiles](https://github.com/paulirish/dotfiles/).
 
-## Installation
 
-### Using Git and the bootstrap script
+## install the neccessary apps
 
-You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
-
-```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && ./bootstrap.sh
-```
-
-To update, `cd` into your local `dotfiles` repository and then:
-
-```bash
-./bootstrap.sh
-```
-
-Alternatively, to update while avoiding the confirmation prompt:
-
-```bash
-./bootstrap.sh -f
-```
-
-### Git-free install
-
-To install these dotfiles without Git:
-
-```bash
-cd; curl -#L https://github.com/mathiasbynens/dotfiles/tarball/master | tar -xzv --strip-components 1 --exclude={README.md,bootstrap.sh}
-```
-
-To update later on, just run that command again.
+My basic setup is captured in `install-deps.sh` which adds homebrew, z, etc.
 
 ### Specify the `$PATH`
 
