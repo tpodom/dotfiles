@@ -17,3 +17,5 @@ export M2=$M2_HOME/bin
 # maven is faster in 32bit mode
 export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=250m -d32"
 
+export PHANTOMJS_BIN=/usr/local/bin/phantomjs
+
