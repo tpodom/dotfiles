@@ -1,4 +1,5 @@
 [alias]
+    co = checkout
 	# View the SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph
 	# View the current working tree status using the short format
@@ -58,6 +59,8 @@
 [merge]
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+[push]
+    default = current
 
 # Use `origin` as the default remote on the `master` branch in all cases
 [branch "master"]
