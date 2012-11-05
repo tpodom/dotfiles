@@ -4,7 +4,7 @@ export PATH="$HOME/bin:$PATH"
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,bash_prompt,exports,aliases,functions,extra,git-completion}; do
+for file in ~/.{path,bash_prompt,exports,aliases,functions,extra}; do
 	[ -r "$file" ] && source "$file"
 done
 unset file
@@ -45,7 +45,8 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 [ -f /etc/bash_completion ] && source /etc/bash_completion
 
 # Add extra git scripts to make working with remote branches faster
-if [ -f ~/git-scripts/git-scripts.sh ]; then
-  source ~/git-scripts/git-scripts.sh
-fi
+[ -f ~/git-scripts/git-scripts.sh ] && source ~/git-scripts/git-scripts.sh
+
+# Add some git completion awesomeness
+[ -f /usr/local/opt/git/etc/bash_completion.d/git-completion.bash ] && source /usr/local/opt/git/etc/bash_completion.d/git-completion.bash
 
