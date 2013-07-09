@@ -5,5 +5,4 @@ curl https://raw.github.com/rupa/z/master/z.sh > ~/bin/z/z.sh
 chmod +x ~/bin/z/z.sh
 
 sudo easy_install Pygments
-git clone http://github.com/garysweaver/git-scripts.git ~/git-scripts
 
