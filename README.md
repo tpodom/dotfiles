@@ -24,35 +24,21 @@ My `~/.extra` looks something like this:
 
 ```bash
 # PATH additions
-export PATH="~/bin:$PATH"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_25.jdk/Contents/Home
+export PATH=/opt/local/bin:/opt/local/sbin:$M2_HOME/bin:/usr/local/bin:$PATH
+export PATH=$PATH:~/bin:/usr/local/lib/node_modules
+export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
-# Git credentials
-# Not in the repository, to prevent people from accidentally committing under my name
-GIT_AUTHOR_NAME="Mathias Bynens"
+GIT_AUTHOR_NAME="<Name>"
 GIT_COMMITTER_NAME="$GIT_AUTHOR_NAME"
 git config --global user.name "$GIT_AUTHOR_NAME"
-GIT_AUTHOR_EMAIL="mathias@mailinator.com"
+GIT_AUTHOR_EMAIL="<Email>"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
 You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to [fork this repository](https://github.com/mathiasbynens/dotfiles/fork_select) instead, though.
 
-### Sensible OS X defaults
-
-When setting up a new Mac, you may want to set some sensible OS X defaults:
-
-```bash
-./.osx
-```
-
-### Install Homebrew formulae
-
-When setting up a new Mac, you may want to install some common Homebrew formulae (after installing Homebrew, of course):
-
-```bash
-./.brew
-```
 
 ## Feedback
 
