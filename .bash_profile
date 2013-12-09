@@ -1,8 +1,3 @@
-# Add `~/bin` to the `$PATH`
-export PATH="node_modules/.bin:$HOME/bin:$PATH:/Applications/Postgres.app/Contents/MacOS/bin"
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.7)
-export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
