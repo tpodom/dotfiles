@@ -20,5 +20,5 @@ export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 export M2_HOME=~/bin/maven
 export M2=$M2_HOME/bin
 export PATH="$M2:$PATH"
-export MAVEN_OPTS="-Xmx1024m -XX:MaxPermSize=250m -XX:+UseCodeCacheFlushing"
+export MAVEN_OPTS="-Xmx1024m -XX:+UseCodeCacheFlushing"
 export VAGRANT_VMWARE_CLONE_DIRECTORY="~/Documents/Virtual Machines.localized"
