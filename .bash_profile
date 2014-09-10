@@ -46,6 +46,7 @@ complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes Syste
 
 # Add some git completion awesomeness
 [ -f ~/.bash_completion.d/git-completion.bash ] && source ~/.bash_completion.d/git-completion.bash
+[ -f ~/.bash_completion.d/git-flow-completion.bash ] && source ~/.bash_completion.d/git-flow-completion.bash
 
 # Add RVM
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
