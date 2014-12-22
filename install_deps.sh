@@ -7,5 +7,5 @@ chmod +x ~/bin/z/z.sh
 sudo easy_install Pygments
 mkdir -p ~/.bash_completion.d
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/.bash_completion.d/git-completion.bash
-curl https://raw.githubusercontent.com/bobthecow/git-flow-completion/master/git-flow-completion.bash > ~/.bash_completion.d/git-flow-completion.bash
+curl https://raw.githubusercontent.com/petervanderdoes/git-flow-completion/develop/git-flow-completion.bash > ~/.bash_completion.d/git-flow-completion.bash
 
