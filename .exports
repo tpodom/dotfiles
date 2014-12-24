@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="node_modules/.bin:$HOME/bin:$PATH:/Applications/Postgres93.app/Contents/MacOS/bin"
+export PATH="node_modules/.bin:$HOME/bin:$PATH:/Applications/Postgres.app/Contents/MacOS/bin:$HOME/dart/dart-sdk/bin"
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 export NODE_PATH=/usr/local/lib/node_modules:$NODE_PATH
 
@@ -22,3 +22,4 @@ export M2=$M2_HOME/bin
 export PATH="$M2:$PATH"
 export MAVEN_OPTS="-Xmx1024m -XX:+UseCodeCacheFlushing"
 export VAGRANT_VMWARE_CLONE_DIRECTORY="~/Documents/Virtual Machines.localized"
+export DARTIUM_BIN="$HOME/dart/chromium/Chromium.app/Contents/MacOS/Chromium"
