@@ -1,4 +1,5 @@
 [alias]
+    co = checkout
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -135,7 +136,7 @@
 [commit]
 
 	# https://help.github.com/articles/signing-commits-using-gpg/
-	gpgsign = true
+	gpgsign = false
 
 [diff]
 
@@ -189,6 +190,10 @@
 
 [credential]
 	helper = osxkeychain
+
 [rerere]
 	enabled = 1
 	autoupdate = true
+
+[http]
+	postBuffer = 52428800

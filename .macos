@@ -601,6 +601,8 @@ sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Vol
 
 # Only use UTF-8 in Terminal.app
 defaults write com.apple.terminal StringEncodings -array 4
+defaults write com.googlecode.iterm2 "Normal Font" -string "Hack-Regular 12";
+defaults write com.googlecode.iterm2 "Non Ascii Font" -string "RobotoMonoForPowerline-Regular 12";
 
 # Use a modified version of the Solarized Dark theme by default in Terminal.app
 osascript <<EOD

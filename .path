@@ -1,0 +1,1 @@
+export PATH="/usr/local/git/bin:node_modules/.bin:$HOME/bin:$HOME/google-cloud-sdk/bin:$HOME/Library/Python/3.7/bin:/usr/local/bin:/usr/local/sbin:/usr/local/opt/python@2/libexec/bin:/Applications/Docker.app/Contents/Resources/bin:$PATH"
